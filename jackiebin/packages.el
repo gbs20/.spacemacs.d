@@ -127,6 +127,8 @@ Each entry is either:
   (use-package chinese-fonts-setup
 	       :init
 	       :config
+           (setq cfs-profiles
+                 '("program" "org-mode" "read-book"))
 	       ))
 (defun jackiebin/init-youdao-dictionary ()
   (use-package youdao-dictionary
