@@ -312,10 +312,10 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  (setq configuration-layer--elpa-archives
-        '(("melpa-cn" . "http://elpa.zilongshanren.com/melpa/")
-          ("org-cn"   . "http://elpa.zilongshanren.com/org/")
-          ("gnu-cn" . "http://elpa.zilongshanren.com/gnu/")))
+(setq configuration-layer--elpa-archives
+    '(("melpa-cn" . "http://elpa.emacs-china.org/melpa/")
+      ("org-cn"   . "http://elpa.emacs-china.org/org/")
+      ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")))
 
 (setq tramp-ssh-controlmaster-options
       "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
